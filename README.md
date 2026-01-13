@@ -104,6 +104,18 @@ All configuration is managed through environment variables in the `.env` file:
 
 ---
 
+### ▶️ Running the Service
+```bash
+node src/index.js
+```
+
+Expected output:
+```arduino
+Connected to RabbitMQ
+Queue ready: notification.fcm
+Waiting for messages...
+```
+
 ## 📂 Project Structure
 
 ```
@@ -120,14 +132,3 @@ fcm-notification-service/
 
 ```
 
-### ▶️ Running the Service
-```bash
-node src/index.js
-```
-
-Expected output:
-```arduino
-Connected to RabbitMQ
-Queue ready: notification.fcm
-Waiting for messages...
-```
